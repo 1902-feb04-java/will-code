@@ -1,0 +1,40 @@
+#textBox{
+    width: 300px;
+    /* width of actual text box  */
+    background-color: yellow;
+    height: 200px;
+    /* height of actual text box */
+    overflow: auto;
+    /* over flow auto allows you to scroll text that doesnt fit inside textbox deminsions */
+    margin-top: 20px;
+    /* in this instance, margin is the space between the picture and the text box */
+    padding-left: 5px;
+    /* padding is the space between the text box and the actual text */
+    padding-right: 5px;
+    border: 6px dashed orange;
+
+}
+
+.BUtext{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.picture{
+    width: 300px;
+    height: 100px;
+    border: 6px solid orange;
+    /* the border around the image with a thickness of 6px */
+}
+
+main{
+    width: 350px;
+    /* the width of everything in the main */
+    background-color: lightyellow;
+    border: 3px solid brown;
+    /* border around everything in main */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* width is 350 so really only left padding is needed  */
+}
